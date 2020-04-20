@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+:root {
+  --yummy-burgundy: #513;
+  --dark-red: #813;
+  --tomato: #e44;
+  --orange: #f80;
+  --white: #fff;
+  --deep-dark-blue: #022;
+  --deep-purple: #313;
+  --deep-dark: #012;
+  --dark: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-main-container {
+  position: relative;
+  background-color: var(--deep-dark);
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.home-main-container .container {
+  z-index: 1;
+  /* height: 100vh; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .home-main-container:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background-image: url('./react-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+} */
