@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import Navbar from '../layout/Navbar';
 
 function Home() {
   return (
     <MainContainer>
       <div className='home-main-container'>
+        <Navbar />
         <div className='container'>
           <h1 className='display-5 text-uppercase text-center py-5'>
             Welcome to JavaScript 2020 conference
