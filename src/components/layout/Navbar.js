@@ -25,22 +25,38 @@ function Navbar() {
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='#navbarSupportedContent'
+            >
               <NavLink className='nav-link' exact to='/'>
                 Home
               </NavLink>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='#navbarSupportedContent'
+            >
               <NavLink className='nav-link' to='/speakers'>
                 Speakers
               </NavLink>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='#navbarSupportedContent'
+            >
               <NavLink className='nav-link' to='/events'>
                 Events
               </NavLink>
             </li>
-            <li className='nav-item'>
+            <li
+              className='nav-item'
+              data-toggle='collapse'
+              data-target='#navbarSupportedContent'
+            >
               <NavLink className='nav-link' to='/about'>
                 About
               </NavLink>
