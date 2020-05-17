@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Speakers from './components/pages/Speakers';
 import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/speakers' component={Speakers} />
       </Switch>
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Footer from '../layout/Footer';
 
 function Home() {
   return (
@@ -64,7 +63,6 @@ function Home() {
           </div>
         </div>
       </MainContainer>
-      <Footer />
     </>
   );
 }
