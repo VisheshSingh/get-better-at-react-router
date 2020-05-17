@@ -15,7 +15,7 @@ const Speakers = () => {
       <div className='container'>
         <div className='row mx-auto justify-content-center'>
           {/* SPEAKER 1 */}
-          <div className='card col-xs-6 p-2'>
+          <div className='card col-md-5 p-2'>
             <img
               src={avatar1}
               alt='Speaker 1'
@@ -39,7 +39,7 @@ const Speakers = () => {
               </Link>
             </div>
           </div>
-          <div className='card col-xs-6 p-2'>
+          <div className='card col-md-5 p-2'>
             <img
               src={avatar2}
               alt='Speaker 2'
@@ -63,7 +63,7 @@ const Speakers = () => {
               </Link>
             </div>
           </div>
-          <div className='card col-xs-6 p-2'>
+          <div className='card col-md-5 p-2'>
             <img
               src={avatar3}
               alt='Speaker 3'
@@ -87,7 +87,7 @@ const Speakers = () => {
               </Link>
             </div>
           </div>
-          <div className='card col-xs-6 p-2'>
+          <div className='card col-md-5 p-2'>
             <img
               src={avatar4}
               alt='Speaker 4'
@@ -111,7 +111,7 @@ const Speakers = () => {
               </Link>
             </div>
           </div>
-          <div className='card col-xs-6 p-2'>
+          <div className='card col-md-5 p-2'>
             <img
               src={avatar5}
               alt='Speaker 5'
