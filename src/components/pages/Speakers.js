@@ -32,7 +32,7 @@ const Speakers = () => {
                 odio aut excepturi debitis, temporibus, quae facere perspiciatis
                 aperiam amet! Dicta, qui?
               </p>
-              <Link to='/'>
+              <Link to='/speakerinfo/0'>
                 <Button className='btn btn-primary text-uppercase'>
                   More info about speaker
                 </Button>
@@ -42,7 +42,7 @@ const Speakers = () => {
           <div className='card col-xs-6 p-2'>
             <img
               src={avatar2}
-              alt='Speaker 1'
+              alt='Speaker 2'
               className='card-img-top mx-auto'
             />
             <div className='card-body'>
@@ -56,7 +56,7 @@ const Speakers = () => {
                 odio aut excepturi debitis, temporibus, quae facere perspiciatis
                 aperiam amet! Dicta, qui?
               </p>
-              <Link to='/'>
+              <Link to='/speakerinfo/1'>
                 <Button className='btn btn-primary text-uppercase'>
                   More info about speaker
                 </Button>
@@ -66,7 +66,7 @@ const Speakers = () => {
           <div className='card col-xs-6 p-2'>
             <img
               src={avatar3}
-              alt='Speaker 1'
+              alt='Speaker 3'
               className='card-img-top mx-auto'
             />
             <div className='card-body'>
@@ -80,7 +80,7 @@ const Speakers = () => {
                 odio aut excepturi debitis, temporibus, quae facere perspiciatis
                 aperiam amet! Dicta, qui?
               </p>
-              <Link to='/'>
+              <Link to='/speakerinfo/2'>
                 <Button className='btn btn-primary text-uppercase'>
                   More info about speaker
                 </Button>
@@ -90,7 +90,7 @@ const Speakers = () => {
           <div className='card col-xs-6 p-2'>
             <img
               src={avatar4}
-              alt='Speaker 1'
+              alt='Speaker 4'
               className='card-img-top mx-auto'
             />
             <div className='card-body'>
@@ -104,7 +104,7 @@ const Speakers = () => {
                 odio aut excepturi debitis, temporibus, quae facere perspiciatis
                 aperiam amet! Dicta, qui?
               </p>
-              <Link to='/'>
+              <Link to='/speakerinfo/3'>
                 <Button className='btn btn-primary text-uppercase'>
                   More info about speaker
                 </Button>
@@ -114,7 +114,7 @@ const Speakers = () => {
           <div className='card col-xs-6 p-2'>
             <img
               src={avatar5}
-              alt='Speaker 1'
+              alt='Speaker 5'
               className='card-img-top mx-auto'
             />
             <div className='card-body'>
@@ -128,7 +128,7 @@ const Speakers = () => {
                 odio aut excepturi debitis, temporibus, quae facere perspiciatis
                 aperiam amet! Dicta, qui?
               </p>
-              <Link to='/'>
+              <Link to='/speakerinfo/4'>
                 <Button className='btn btn-primary text-uppercase'>
                   More info about speaker
                 </Button>
