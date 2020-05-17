@@ -25,8 +25,8 @@ function Navbar() {
 
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav ml-auto'>
-            <li className='nav-item active'>
-              <NavLink className='nav-link' to='/'>
+            <li className='nav-item'>
+              <NavLink className='nav-link' exact to='/'>
                 Home
               </NavLink>
             </li>
@@ -77,7 +77,7 @@ const NavbarContainer = styled.nav`
     }
   }
 
-  .active {
+  .nav-link.active {
     border-radius: 0.5rem;
     background: var(--tomato) !important;
   }

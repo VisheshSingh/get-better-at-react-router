@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../layout/Navbar';
 import Footer from '../layout/Footer';
 
 function Home() {
@@ -8,7 +7,6 @@ function Home() {
     <>
       <MainContainer>
         <div className='home-main-container'>
-          <Navbar />
           <div className='container'>
             <h1 className='display-5 text-uppercase text-center py-5'>
               Welcome to JavaScript 2020 conference
@@ -93,7 +91,6 @@ const MainContainer = styled.div`
   }
 
   button {
-    // width: 100%;
     background: transparent;
     border: 2px solid var(--dark-red);
 
