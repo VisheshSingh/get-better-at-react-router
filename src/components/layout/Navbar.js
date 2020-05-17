@@ -7,7 +7,9 @@ function Navbar() {
     <NavbarContainer>
       <nav className='navbar navbar-expand-lg navbar-light bg-light'>
         <Link className='navbar-brand' to='/'>
-          <span>😎</span>
+          <span role='img' aria-labelledby='logo'>
+            😎
+          </span>
         </Link>
         <button
           className='navbar-toggler'

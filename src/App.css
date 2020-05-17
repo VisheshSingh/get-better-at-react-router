@@ -30,10 +30,10 @@ body {
 
 .home-main-container .container {
   z-index: 1;
-  /* height: 100vh; */
+  position: relative;
 }
 
-/* .home-main-container:before {
+.home-main-container:before {
   content: '';
   display: block;
   position: absolute;
@@ -50,4 +50,4 @@ body {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-} */
+}

@@ -64,7 +64,9 @@ function Footer() {
             </ul>
           </div>
           <div className='pt-3 pb-2 pl-5 copy-right text-center'>
-            &nbsp; 👑 {new Date().getFullYear()}&nbsp; &copy; All Rights
+            <span role='img' aria-labelledby='crown'>
+              &nbsp; 👑 {new Date().getFullYear()}&nbsp; &copy; All Rights
+            </span>
             Reserved.
           </div>
         </div>
