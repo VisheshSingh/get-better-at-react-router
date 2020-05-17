@@ -8,6 +8,7 @@ import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import NotFound from './components/pages/NotFound';
 import Events from './components/pages/Events';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/speakers' component={Speakers} />
         <Route path='/speakerinfo/:id' component={SpeakerInfo} />
         <Route path='/events' component={Events} />
+        <Route path='/about' component={About} />
         <Route path='/*' component={NotFound} />
       </Switch>
       <Footer />
