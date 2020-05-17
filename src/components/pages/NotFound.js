@@ -16,4 +16,6 @@ const NotFoundContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100%;
+  background: var(--deep-dark);
+  color: var(--white);
 `;
