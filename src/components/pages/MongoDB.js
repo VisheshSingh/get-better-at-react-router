@@ -1,9 +1,12 @@
 import React from 'react';
+import mongodb from './img/mongodb.png';
 
-const MongoDB = () => {
+const MongoDB = ({ data }) => {
   return (
     <div>
-      <h3>Mongo DB</h3>
+      <img src={mongodb} alt='Mongo DB logo' style={{ width: '20rem' }} />
+      <h3>{data[0].title}</h3>
+      <p>{data[0].description}</p>
     </div>
   );
 };

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "title": "Mongo DB",
+    "description": "MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",
+    "image": "./img/mongodb.png"
+  },
+  {
+    "id": 1,
+    "title": "Express",
+    "description": "Express.js, or simply Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.",
+    "image": "./img/express.png"
+  },
+  {
+    "id": 2,
+    "title": "React",
+    "description": "React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.",
+    "image": "./img/react.png"
+  },
+  {
+    "id": 3,
+    "title": "Node JS",
+    "description": "Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser.",
+    "image": "./img/node.png"
+  }
+]

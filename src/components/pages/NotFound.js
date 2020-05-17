@@ -4,7 +4,15 @@ import styled from 'styled-components';
 const NotFound = () => {
   return (
     <NotFoundContainer>
-      <h3 className='text-center my-10'>😩 oh no! Sorry, not found 😣</h3>
+      <h3 className='text-center my-10'>
+        <span role='img' aria-labelledby='emoji'>
+          😩
+        </span>{' '}
+        oh no! Sorry, not found{' '}
+        <span role='img' aria-labelledby='emoji'>
+          😣
+        </span>
+      </h3>
     </NotFoundContainer>
   );
 };

@@ -6,6 +6,7 @@ import MongoDB from './MongoDB';
 import Express from './Express';
 import ReactJS from './React';
 import Node from './Node';
+import data from '../../data/info.json';
 
 const Events = () => {
   return (
@@ -41,10 +42,26 @@ const Events = () => {
           NodeJS
         </NavLink>
         <Switch>
-          <Route exact path='/events/mongodb' render={() => <MongoDB />} />
-          <Route exact path='/events/express' render={() => <Express />} />
-          <Route exact path='/events/react' render={() => <ReactJS />} />
-          <Route exact path='/events/node' render={() => <Node />} />
+          <Route
+            exact
+            path='/events/mongodb'
+            render={() => <MongoDB data={data} />}
+          />
+          <Route
+            exact
+            path='/events/express'
+            render={() => <Express data={data} />}
+          />
+          <Route
+            exact
+            path='/events/react'
+            render={() => <ReactJS data={data} />}
+          />
+          <Route
+            exact
+            path='/events/node'
+            render={() => <Node data={data} />}
+          />
         </Switch>
       </div>
     </EventsContainer>

@@ -5,7 +5,7 @@ const Avatar = ({ speakerImage }) => {
     <div>
       <img
         src={speakerImage}
-        alt='speaker image'
+        alt='speaker'
         style={{
           width: '10rem',
           height: '10rem',
