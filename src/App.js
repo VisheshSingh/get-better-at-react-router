@@ -6,6 +6,7 @@ import Speakers from './components/pages/Speakers';
 import SpeakerInfo from './components/pages/SpeakerInfo';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import NotFound from './components/pages/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/speakers' component={Speakers} />
         <Route path='/speakerinfo/:id' component={SpeakerInfo} />
+        <Route path='/*' component={NotFound} />
       </Switch>
       <Footer />
     </>
