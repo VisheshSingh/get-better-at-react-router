@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function Navbar() {
   return (
     <NavbarContainer>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <nav className='navbar navbar-expand-md navbar-light bg-light'>
         <Link className='navbar-brand' to='/'>
           <span role='img' aria-labelledby='logo'>
             😎
@@ -63,8 +63,14 @@ const NavbarContainer = styled.nav`
     font-size: 40px;
   }
 
+  .nav-item {
+    margin: 0.4rem 0.2rem;
+  }
+
   .nav-link {
     color: var(--white) !important;
+    padding: 1rem;
+    border-radius: 0.5rem;
 
     &:hover {
       background: var(--tomato) !important;
@@ -72,6 +78,7 @@ const NavbarContainer = styled.nav`
   }
 
   .active {
+    border-radius: 0.5rem;
     background: var(--tomato) !important;
   }
 `;

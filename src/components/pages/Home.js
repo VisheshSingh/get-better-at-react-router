@@ -93,7 +93,7 @@ const MainContainer = styled.div`
   }
 
   button {
-    width: 100%;
+    // width: 100%;
     background: transparent;
     border: 2px solid var(--dark-red);
 
