@@ -1,5 +1,5 @@
 import React from 'react';
-import mongodb from './img/mongodb.png';
+import mongodb from '../img/mongodb.png';
 
 const MongoDB = ({ data }) => {
   return (

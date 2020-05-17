@@ -1,5 +1,5 @@
 import React from 'react';
-import nodelogo from './img/node.png';
+import nodelogo from '../img/node.png';
 
 const Node = ({ data }) => {
   return (

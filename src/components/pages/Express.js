@@ -1,5 +1,5 @@
 import React from 'react';
-import express from './img/express.png';
+import express from '../img/express.png';
 
 const Express = ({ data }) => {
   return (

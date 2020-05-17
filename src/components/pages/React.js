@@ -1,5 +1,5 @@
 import React from 'react';
-import Reactlogo from './img/react.png';
+import Reactlogo from '../img/react.png';
 
 const ReactJS = ({ data }) => {
   return (
